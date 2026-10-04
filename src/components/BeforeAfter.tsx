@@ -1,5 +1,7 @@
 import React, { useState, useRef, useCallback } from 'react';
 import { ArrowLeftRight, CheckCircle, Clock, Maximize, Layers } from 'lucide-react';
+import bathroomBeforeImg from '../assets/images/bathroom_before_1791089797551.jpg';
+import bathroomAfterImg from '../assets/images/bathroom_after_1791089809790.jpg';
 
 export const BeforeAfter: React.FC = () => {
   const [sliderPosition, setSliderPosition] = useState<number>(50); // percentage 0 to 100
@@ -68,7 +70,7 @@ export const BeforeAfter: React.FC = () => {
           >
             {/* AFTER Image (Full width background) */}
             <img
-              src="/src/assets/images/bathroom_after_1791089809790.jpg"
+              src={bathroomAfterImg}
               alt="Salle de bain après rénovation - Carrelage haut de gamme et douche italienne"
               className="absolute inset-0 w-full h-full object-cover object-center pointer-events-none"
               loading="lazy"
@@ -86,7 +88,7 @@ export const BeforeAfter: React.FC = () => {
               style={{ width: `${sliderPosition}%` }}
             >
               <img
-                src="/src/assets/images/bathroom_before_1791089797551.jpg"
+                src={bathroomBeforeImg}
                 alt="Salle de bain avant rénovation - Vieux carrelage des années 80"
                 className="absolute inset-0 w-full h-full object-cover object-center max-w-none"
                 style={{

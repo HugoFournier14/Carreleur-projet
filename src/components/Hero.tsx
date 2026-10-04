@@ -1,5 +1,6 @@
 import React from 'react';
 import { ArrowDown, MessageSquare, Shield, CheckCircle2, Ruler } from 'lucide-react';
+import heroLuxuryImg from '../assets/images/hero_tiling_luxury_1791089785196.jpg';
 
 interface HeroProps {
   onOpenWhatsApp: () => void;
@@ -11,7 +12,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenWhatsApp }) => {
       {/* Background Image with refined architectural contrast scrim */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/src/assets/images/hero_tiling_luxury_1791089785196.jpg"
+          src={heroLuxuryImg}
           alt="Carrelage grand format et faïence de luxe dans une salle de bain épurée"
           className="w-full h-full object-cover object-center scale-[1.02] transform transition-transform duration-1000"
           loading="eager"

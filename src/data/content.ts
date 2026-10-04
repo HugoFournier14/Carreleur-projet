@@ -1,4 +1,9 @@
 // Données artisanales complètes pour Atelier Pierre & Joint
+import heroLuxuryImg from '../assets/images/hero_tiling_luxury_1791089785196.jpg';
+import bathroomAfterImg from '../assets/images/bathroom_after_1791089809790.jpg';
+import terraceImg from '../assets/images/project_living_terrace_1791089820829.jpg';
+import zelligeImg from '../assets/images/project_zellige_kitchen_1791089831069.jpg';
+
 export interface ServiceItem {
   id: string;
   number: string;
@@ -130,7 +135,7 @@ export const PROJECTS: ProjectItem[] = [
     category: 'salles-de-bain',
     categoryLabel: 'Salle de bain',
     location: 'Caen (Quartier Saint-Julien)',
-    image: '/src/assets/images/bathroom_after_1791089809790.jpg',
+    image: bathroomAfterImg,
     format: '60 × 120 cm',
     surface: '16 m²',
     duration: '8 jours',
@@ -142,7 +147,7 @@ export const PROJECTS: ProjectItem[] = [
     category: 'sols-grands-formats',
     categoryLabel: 'Sol & Terrasse',
     location: 'Deauville (Côte Fleurie)',
-    image: '/src/assets/images/project_living_terrace_1791089820829.jpg',
+    image: terraceImg,
     format: '120 × 120 cm',
     surface: '95 m²',
     duration: '12 jours',
@@ -154,7 +159,7 @@ export const PROJECTS: ProjectItem[] = [
     category: 'cuisines-zelliges',
     categoryLabel: 'Cuisine d\'art',
     location: 'Pont-l\'Évêque (Pays d\'Auge)',
-    image: '/src/assets/images/project_zellige_kitchen_1791089831069.jpg',
+    image: zelligeImg,
     format: '10 × 10 cm',
     surface: '6.5 m²',
     duration: '3 jours',
@@ -166,7 +171,7 @@ export const PROJECTS: ProjectItem[] = [
     category: 'salles-de-bain',
     categoryLabel: 'Salle de bain',
     location: 'Bayeux (Bessin / Centre historique)',
-    image: '/src/assets/images/hero_tiling_luxury_1791089785196.jpg',
+    image: heroLuxuryImg,
     format: '80 × 160 cm',
     surface: '22 m²',
     duration: '10 jours',
