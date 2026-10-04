@@ -1,0 +1,7 @@
+{
+  "name": "Atelier Pierre & Joint | Artisan Carreleur de Précision",
+  "description": "Artisan carreleur d'exception : pose de carrelage grand format, faïence, travertin et terrasses. Savoir-faire rigoureux, devis gratuit sous 24h et garantie décennale.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
